@@ -1,0 +1,138 @@
+/* GENERAL */
+
+body {
+	font-size: 13px;
+	font-family: Arial;
+}
+
+a {
+	text-decoration: none;
+	color: #696969;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+/* HEADER */
+.header {
+	float: right;
+	height: 20px;
+	padding: 2px;
+}
+li {
+	display: inline-block;
+	float: left;
+	padding-left: 15px;
+	/*THIS IS HOW YOU ALIGN IMG AND TXT IN THE HEADER*/
+	height: 50px;
+    line-height: 30px;
+}
+
+.apps {
+	position:relative;
+	vertical-align: middle;
+	-moz-transform:scale(0.75);
+    -webkit-transform:scale(0.75);
+    transform:scale(0.75);
+}
+
+.notifications {
+	vertical-align: middle;
+	-moz-transform:scale(0.75);
+    -webkit-transform:scale(0.75);
+    transform:scale(0.75);
+}
+
+.user {
+	border-radius: 50%;
+	width: 2em;
+	height: 2em;
+	vertical-align: middle;
+}
+
+/* LOGO AND SEARCH */
+
+.logo {
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 200px;
+	padding-bottom: 25px;
+}
+
+.main {
+	width: 100%;
+	text-align: center;
+}
+
+.logo img {
+	display: block;
+	width: 300px;
+	height: 100px;
+	margin: auto;
+	max-width: 900px;
+}
+
+.searchbox {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+input {
+	width: 600px;
+	height: 22px;
+	margin: auto;
+	/*background-image: url('images/microphone.png');
+    background-repeat: no-repeat;
+    background-position: right;*/
+}
+
+.buttons {
+	display: block;
+    float: auto;
+    margin: auto;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.butn1 {
+	display: inline;
+	background-color: #f1f1f1;
+	font-weight: bold;
+	font-family: Arial; sans-serif;
+	color: #909090;
+	border: 0.5px solid #d8d8d8;
+	margin: auto;
+	padding: 4px;
+}
+
+.butn2 {
+	display: inline;
+	background-color: #f1f1f1;
+	font-weight: bold;
+	font-family: Arial; sans-serif;
+	color: #909090;
+	border: 0.5px solid #d8d8d8;
+	margin: auto;
+	padding: 4px;
+	margin-left: 5px;
+}
+
+.butn1:hover {
+	color: #606060;
+	border: 1px solid #bdbdbd;
+}
+
+.butn2:hover {
+	color: #606060;
+	border: 1px solid #bdbdbd;
+}
+
+
+/**/
+
+.all {
+
+}
+
